@@ -1,0 +1,30 @@
+package com.example.DTO;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class UserDTO {
+
+		
+	private Long id;
+			
+	private String firstName;
+	
+	private String lastName;
+	
+	private String city;
+	
+	private String emailID;
+
+	private String mobileNumber;
+
+
+	private Date dob;
+
+	private String password;
+	
+}
